@@ -4,11 +4,21 @@ html{
     font-weight: 500;
     background-color: black;
 }
+@media screen and (min-width: 600px){
 body{
     position: relative;left: 20%;
     width: 60%;
     height: 2020px;
     background-color: blanchedalmond;
+}
+}
+@media screen and (max-width: 600px){
+body{
+    position: relative;
+    width: 100%;
+    height: 2020px;
+    background-color: blanchedalmond;
+}
 }
 #icon{
     width: 100%;
